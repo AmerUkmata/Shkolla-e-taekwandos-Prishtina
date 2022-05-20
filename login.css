@@ -37,7 +37,7 @@ box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
-.button {
+button{
 background-color: #04AA6D;
 color: white;
 padding: 14px 20px;
@@ -45,37 +45,12 @@ margin: 8px 0;
 border: none;
 cursor: pointer;
 width: 100%;
+text-decoration: solid;
 }
 
 /* Add a hover effect for buttons */
-.button:hover {
+button:hover{
 opacity: 0.8;
-}
-
-/* Add buton link*/
-.button a{
-    text-align: center;
-    text-decoration: solid;
-    
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-width: auto;
-padding: 10px 18px;
-background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-text-align: center;
-margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-width: 40%;
-border-radius: 50%;
 }
 
 /* Add padding to containers */
@@ -94,9 +69,6 @@ padding-top: 16px;
 span.psw {
   display: block;
   float: none;
-}
-.cancelbtn {
-  width: 100%;
 }
 }
     /* The Modal (background) */
@@ -120,24 +92,6 @@ background-color: #fefefe;
 margin: 5px auto; /* 15% from the top and centered */
 border: 1px solid #888;
 width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-/* Position it in the top right corner outside of the modal */
-position: absolute;
-right: 25px;
-top: 0;
-color: #000;
-font-size: 35px;
-font-weight: bold;
-}
-
-/* Close button on hover */
-.close:hover,
-.close:focus {
-color: red;
-cursor: pointer;
 }
 
 /* Add Zoom Animation */
