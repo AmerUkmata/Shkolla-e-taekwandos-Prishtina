@@ -13,6 +13,11 @@ body, html {
   min-height: 100%;
 }
 
+.mini-header{
+    text-align: center;
+    text-decoration: dotted;
+}
+
 .w3-bar .w3-button {
   padding: 16px;
 }
@@ -32,7 +37,7 @@ box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
-button {
+.button {
 background-color: #04AA6D;
 color: white;
 padding: 14px 20px;
@@ -43,8 +48,15 @@ width: 100%;
 }
 
 /* Add a hover effect for buttons */
-button:hover {
+.button:hover {
 opacity: 0.8;
+}
+
+/* Add buton link*/
+.button a{
+    text-align: center;
+    text-decoration: solid;
+    
 }
 
 /* Extra style for the cancel button (red) */
